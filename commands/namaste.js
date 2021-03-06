@@ -5,7 +5,7 @@ exports.run = (bot, message) => {
 exports.help = {
   name: "Namastê",
   description:
-    "Que todos os seres vivos da terra possam se livrar dos sofrimentos e sentir apenas paz e tranquilidade",
+    "Que todos os seres vivos da Terra possam se livrar dos sofrimentos e sentir apenas paz e tranquilidade",
   usage: "namaste",
   cooldown: 5,
 };
