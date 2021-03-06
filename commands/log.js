@@ -1,13 +1,14 @@
 exports.run = (bot, message) => {
-    bot.sendText(message.from, "Test").then(m => {
-        console.log(message);
-        bot.deleteMessage(message.from, m);
-    });
+  bot.sendText(message.from, "Teste").then((m) => {
+    console.log(message);
+    bot.deleteMessage(message.from, m);
+  });
 };
 
 exports.help = {
-    name: "Log",
-    description: "Developer-only command",
-    usage: "log",
-    cooldown: 1
+  name: "Registro",
+  description:
+    "Comando só pro porto, que definitivamente não é desenvolvedor, mas vamo fingir que é, sim.",
+  usage: "log",
+  cooldown: 1,
 };
